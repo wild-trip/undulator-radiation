@@ -11,8 +11,8 @@
 
 # Description
 #### 1.1 Параметры установки:
-Поле
 
+Поле:
 <img src="https://render.githubusercontent.com/render/math?math=H=H_0(0, sin(k_{\lambda}z) %2B d_y sin(3k_{\lambda}z),0)">
 
 | Переменная   |      Значение      |
@@ -41,7 +41,7 @@ UPD: Изменились параметры длины и поля ондуля
 
 1.2 Параметры установки:
 
-Поле
+Поле:
 <img src="https://render.githubusercontent.com/render/math?math=H=H_0(sin(k_{\lambda}z), d_1sin(3k_{\lambda}z) %2B d_2 sin(k_{\lambda}z %2B \frac{\pi}{2}),0)">
 
 | Переменная   |      Значение      |
