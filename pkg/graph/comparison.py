@@ -14,7 +14,7 @@ from pyparsing import *
 import numpy as np
 import matplotlib.pyplot as plt
 
-pathFile='tasks/2/solutions/3_d1=0.3.dc0'
+pathFile='tasks/2/solutions/2.1.2.dc0'
 
 double  = Word(nums+'.'+'e'+'+'+'-')
 
@@ -54,7 +54,7 @@ plt.grid(True)
 axes = plt.gca()
 left, right = axes.get_xlim()
 left = 1
-right = 26
+right = 24
 top, bottom = axes.get_ylim()
 axes.set_xlim(left, right)
 axes.set_ylim(0, bottom)
@@ -83,8 +83,8 @@ plt.xlabel('Energy')
 plt.ylabel('Flux density')
 plt.title('Flux density on the horizontal plane')
 plt.grid(True)
-#im = plt.imread("tasks/2/solutions/1.2_paper_Ox.png")
-#implot = plt.imshow(im, aspect='auto', extent=(left + 0.001, right, 0, bottom))
+im = plt.imread("tasks/2/solutions/2.1.2_paper_Ox.png")
+implot = plt.imshow(im, aspect='auto', extent=(left + 0.001, right, 0, bottom))
 
 plt.subplot(4, 1, 4)
 plt.plot(E, F_Dens_lOy)
@@ -95,14 +95,14 @@ axes.set_ylim(0, bottom)
 plt.xlabel('Energy')
 plt.ylabel('Flux density')
 plt.title('Flux density on the vertical plane')
-im = plt.imread("tasks/2/solutions/1.2_paper_Oy.png")
-#implot = plt.imshow(im, aspect='auto', extent=(left + 0.001, right, 0, bottom))
-#plt.grid(True)
+im = plt.imread("tasks/2/solutions/2.1.2_paper_Oy.png")
+implot = plt.imshow(im, aspect='auto', extent=(left + 0.001, right, 0, bottom))
+plt.grid(True)
 
 plt.tight_layout()
 print("[log] создал графики")
 #plt.show()
 
-targetPic='tasks/2/solutions/3_d=0.3.png'
+targetPic='tasks/2/solutions/2.1.2_tst.png'
 fig.savefig(targetPic, dpi=100)
 print("[log] отрендерил и сохранил графики как", targetPic)

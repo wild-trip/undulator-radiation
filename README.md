@@ -13,3 +13,5 @@
  [x] [Task 1](tasks/1)
 
  [x] [Task 2](tasks/2)
+
+ [x] [Task 3](tasks/3)
