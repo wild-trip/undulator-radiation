@@ -47,18 +47,18 @@ UPD: Изменились параметры длины и поля ондуля
 
 | Переменная   |      Значение      |
 |--------------|:------------------:|
-|  <img src="https://render.githubusercontent.com/render/math?math=\gamma">		|	297.26			|
-|  <img src="https://render.githubusercontent.com/render/math?math=K_{x Eff}">		|	2.133			    |
-| <img src="https://render.githubusercontent.com/render/math?math=K_{y Eff}"> 		|	0.956 		    |
-| <img src="https://render.githubusercontent.com/render/math?math=d_1"> 		|	1				|
-| <img src="https://render.githubusercontent.com/render/math?math=d_2"> 		|	0.3				|
-|  <img src="https://render.githubusercontent.com/render/math?math=\lambda_u">	|	2.8 (cm)		|
-| <img src="https://render.githubusercontent.com/render/math?math=\sigma">		|	0.9e-3 			|
-| <img src="https://render.githubusercontent.com/render/math?math=\epsilon_x">	|	2.5e-6 (m*rad)	|
-| <img src="https://render.githubusercontent.com/render/math?math=\epsilon_y">	|	2.9e-6 (m*rad)	|
-| <img src="https://render.githubusercontent.com/render/math?math=\beta_x">		|	2.1 (m)		|
-| <img src="https://render.githubusercontent.com/render/math?math=\beta_y">		|	2.1 (m)		|
-| L																				|	4.20 (m)		|
+|  <img src="https://render.githubusercontent.com/render/math?math=\gamma">     |   300                  |
+|  <img src="https://render.githubusercontent.com/render/math?math=K_{x Eff}">      |   2.133               |
+| <img src="https://render.githubusercontent.com/render/math?math=K_{y Eff}">       |   0.711              |
+| <img src="https://render.githubusercontent.com/render/math?math=d_1">         |   1                |
+| <img src="https://render.githubusercontent.com/render/math?math=d_2">         |   0.3              |
+|  <img src="https://render.githubusercontent.com/render/math?math=\lambda_u">  |   2.8 (cm)        |
+| <img src="https://render.githubusercontent.com/render/math?math=\sigma">      |   1e-3          |
+| <img src="https://render.githubusercontent.com/render/math?math=\epsilon_x">  |   2.5e-6 (m*rad)  |
+| <img src="https://render.githubusercontent.com/render/math?math=\epsilon_y">  |   2.9e-6 (m*rad)  |
+| <img src="https://render.githubusercontent.com/render/math?math=\beta_x">     |   2.2 (m)     |
+| <img src="https://render.githubusercontent.com/render/math?math=\beta_y">     |   2.2 (m)     |
+| L                                                                             |   2.10 (m)        |
 
 ##### Описание 1.2
 
@@ -86,9 +86,9 @@ UPD: Изменились параметры длины и поля ондуля
 | <img src="https://render.githubusercontent.com/render/math?math=\epsilon_y">  |   2.9e-6 (m*rad)  |
 | <img src="https://render.githubusercontent.com/render/math?math=\beta_x">     |   2.2 (m)     |
 | <img src="https://render.githubusercontent.com/render/math?math=\beta_y">     |   2.2 (m)     |
-| L                                                                             |   4.20 (m)        |
+| L                                                                             |   2.10 (m)        |
 
-##### Описание 1.2
+##### Описание 3
 
 [![Результат](solutions/3_comp.png "Сравнение задачи 3")](solutions/1.2_comp.png)
 
