@@ -12,7 +12,7 @@ OUTname	Untitled
 
 [ACCELERATOR]
 Name	Untitled
-eGeV	153.29969e-3
+eGeV	153.2997e-3
 imA	4e-06
 cirm	1435
 bunches	2436
@@ -25,7 +25,7 @@ emitt	18.144378e-9
 coupl	1.16
 emittx	8.400e-09
 emitty	9.744e-09
-espread	0.9e-3
+espread	1e-3
 betax	2.2
 alphax	0
 betay	2.2
@@ -307,17 +307,17 @@ CustomBxyData
 [SOURCE]
 Name	Harm
 gap	10
-bx	1.03196
-by	0.462788
-lu	2.3
+bx	0
+by	0.819923
+lu	2.8
 length	4.5
-devlength	345e-2
-reglength	3.404
+devlength	210e-2
+reglength	2.044
 periods	10
 kperp	2.133
 kr	0
-kx	 2.21622
-ky	0.993873
+kx	0
+ky	2.14364
 ky2	0
 radius	0.621784
 bendlength	2.8
@@ -387,15 +387,15 @@ CustomBxyData	One
 [CUSTOMBXY]
 Name	One
 Kx Ratio	Kx Phase	Ky Ratio	Ky Phase
-1	0	0.3	90
+1	0	1	0
 0	0	0	0
-0	0	0.333333	0
+0	0	0.1	0
 
 [CALCULATION]
 Name	Untitled
 slit_dist	30
 epmin	0
-epmax	28
+epmax	35
 de	0.01
 normalfixep	1.0
 fixep	14525
@@ -425,7 +425,7 @@ harmmin	1
 harmmax	5
 tgtharm	1
 detune	0.0
-srcopte	2.45667
+srcopte	2.41704
 kymin	0
 kymax	2.5
 meshep	100
@@ -459,7 +459,7 @@ srcxfix	0.0
 srcyfix	0.0
 srcqxfix	0.0
 srcqyfix	0.0
-wiggleramp	0.00811261
+wiggleramp	0.0316846
 srcxini	-1
 srcxfin	1
 srcxmesh	51
@@ -480,7 +480,7 @@ spdxpos	10.0
 spdrpos	2.0
 spdnradial	90.0
 spdnazimuth	90.0
-xpkwig	-0.0124047
+xpkwig	-0.0140341
 espos	0
 bpfcenter	12000
 bpfwidth	100
