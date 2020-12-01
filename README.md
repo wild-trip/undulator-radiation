@@ -8,10 +8,18 @@
 
 ## Задания
 
- [x] [Task 0](tasks/0)
+- [x] [Task 0](tasks/0)
 
- [x] [Task 1](tasks/1)
+- [x] [Task 1](tasks/1)
 
- [x] [Task 2](tasks/2)
+- [x] [Task 2](tasks/2)
+    - [x] 1.1. <img src="https://render.githubusercontent.com/render/math?math=H=H_0(0, sin(k_{\lambda}z) - 1.22 sin(3k_{\lambda}z),0)">
+    - [ ] 1.2. <img src="https://render.githubusercontent.com/render/math?math=H=H_0(sin(k_{\lambda}z), 0.3 cos(k_{\lambda}z)  %2B sin(3k_{\lambda}z),0)">
+    - [x] 3. <img src="https://render.githubusercontent.com/render/math?math=H=H_0(sin(k_{\lambda}z), sin(3k_{\lambda}z),0)">
 
- [x] [Task 3](tasks/3)
+- [x] [Task 3](tasks/3)
+    - [ ] 1. `Не с чем сравнивать` <img src="https://render.githubusercontent.com/render/math?math=H=H_0(sin(k_{\lambda}z), sin(k_{\lambda}z) - 0.3 cos(3k_{\lambda}z),0)">
+    - [x] 2. <img src="https://render.githubusercontent.com/render/math?math=H=H_0(sin(k_{\lambda}z), cos(3k_{\lambda}z),0)">
+    - [ ] 3. `Не с чем сравнивать` <img src="https://render.githubusercontent.com/render/math?math=H=H_0(0, sin(k_{\lambda}z) %2B 0.3 cos(3k_{\lambda}z),0)">
+    - [ ] 4. `Не с чем сравнивать` <img src="https://render.githubusercontent.com/render/math?math=H=H_0(0, cos(hk_{\lambda}z) %2B 0.3 cos(lk_{\lambda}z),0)">
+    - [ ] 5. `Не с чем сравнивать` <img src="https://render.githubusercontent.com/render/math?math=H=H_0(0, sin(k_{\lambda}z) %2B 0.3 sin(3k_{\lambda}z),0)">

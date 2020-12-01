@@ -21,7 +21,7 @@
 | <img src="https://render.githubusercontent.com/render/math?math=K_{y Eff}">       |   0.956553              |
 | <img src="https://render.githubusercontent.com/render/math?math=h">         |   1                |
 | <img src="https://render.githubusercontent.com/render/math?math=p">         |   5                |
-| <img src="https://render.githubusercontent.com/render/math?math=l">         |   1                |
+| <img src="https://render.githubusercontent.com/render/math?math=l">         |   3                |
 | <img src="https://render.githubusercontent.com/render/math?math=d_1">         |   1                |
 | <img src="https://render.githubusercontent.com/render/math?math=d_2">         |   -0.3              |
 | <img src="https://render.githubusercontent.com/render/math?math=d">         |   0              |

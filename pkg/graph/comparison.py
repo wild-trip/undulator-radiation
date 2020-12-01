@@ -14,10 +14,15 @@ from pyparsing import *
 import numpy as np
 import matplotlib.pyplot as plt
 
-dataFile='tasks/3/solutions/3.5.dc0'
-backgroundImg1='tasks/3/solutions/3.3_analytical_Ox.png'
-backgroundImg2='tasks/3/solutions/3.3_analytical_Oy.png'
-targetPic='tasks/3/solutions/3.5.png'
+backgroundImg1=None
+backgroundImg2=None
+backgroundImg3=None
+backgroundImg4=None
+
+dataFile='tasks/2/solutions/2.1.2_test.dc0'
+#backgroundImg3='tasks/3/solutions/3.6_analytical_Ox.png'
+#backgroundImg4='tasks/3/solutions/3.6_analytical_Oy.png'
+targetPic='tasks/2/solutions/2.1.2_test.png'
 #XY on 60 string
 
 double  = Word(nums+'.'+'e'+'+'+'-')
@@ -87,8 +92,9 @@ plt.xlabel('Energy')
 plt.ylabel('Flux density')
 plt.title('Flux density on the horizontal plane')
 plt.grid(True)
-im = plt.imread(backgroundImg1)
-#implot = plt.imshow(im, aspect='auto', extent=(left + 0.001, right, 0, bottom))
+if backgroundImg3 != None:
+    im = plt.imread(backgroundImg1)
+    implot = plt.imshow(im, aspect='auto', extent=(left + 0.001, right, 0, bottom))
 
 plt.subplot(4, 1, 4)
 plt.plot(E, F_Dens_lOy)
@@ -99,8 +105,9 @@ axes.set_ylim(0, bottom)
 plt.xlabel('Energy')
 plt.ylabel('Flux density')
 plt.title('Flux density on the vertical plane')
-im = plt.imread(backgroundImg2)
-#implot = plt.imshow(im, aspect='auto', extent=(left + 0.001, right, 0, bottom))
+if backgroundImg4 is not None:
+    im = plt.imread(backgroundImg2)
+    implot = plt.imshow(im, aspect='auto', extent=(left + 0.001, right, 0, bottom))  
 plt.grid(True)
 
 plt.tight_layout()
