@@ -51,8 +51,8 @@ UPD: Изменились параметры длины и поля ондуля
 | Переменная   |      Значение      |
 |--------------|:------------------:|
 |  <img src="https://render.githubusercontent.com/render/math?math=\gamma">     |   300                  |
-|  <img src="https://render.githubusercontent.com/render/math?math=K_{x Eff}">      |    2.21622               |
-| <img src="https://render.githubusercontent.com/render/math?math=K_{y Eff}">       |   0.993873              |
+|  <img src="https://render.githubusercontent.com/render/math?math=K_{x Eff}">      |    2.133               |
+| <img src="https://render.githubusercontent.com/render/math?math=K_{y Eff}">       |   0.956553              |
 | <img src="https://render.githubusercontent.com/render/math?math=d_1">         |   1                |
 | <img src="https://render.githubusercontent.com/render/math?math=d_2">         |   0.3              |
 |  <img src="https://render.githubusercontent.com/render/math?math=\lambda_u">  |   2.8 (cm)        |
