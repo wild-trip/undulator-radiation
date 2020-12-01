@@ -55,13 +55,13 @@ UPD: Изменились параметры длины и поля ондуля
 | <img src="https://render.githubusercontent.com/render/math?math=K_{y Eff}">       |   0.993873              |
 | <img src="https://render.githubusercontent.com/render/math?math=d_1">         |   1                |
 | <img src="https://render.githubusercontent.com/render/math?math=d_2">         |   0.3              |
-|  <img src="https://render.githubusercontent.com/render/math?math=\lambda_u">  |   2.3 (cm)        |
-| <img src="https://render.githubusercontent.com/render/math?math=\sigma">      |   0.9e-3          |
+|  <img src="https://render.githubusercontent.com/render/math?math=\lambda_u">  |   2.8 (cm)        |
+| <img src="https://render.githubusercontent.com/render/math?math=\sigma">      |   1e-3          |
 | <img src="https://render.githubusercontent.com/render/math?math=\epsilon_x">  |   2.5e-6 (m*rad)  |
 | <img src="https://render.githubusercontent.com/render/math?math=\epsilon_y">  |   2.9e-6 (m*rad)  |
 | <img src="https://render.githubusercontent.com/render/math?math=\beta_x">     |   2.2 (m)     |
 | <img src="https://render.githubusercontent.com/render/math?math=\beta_y">     |   2.2 (m)     |
-| L                                                                             |   3.45 (m)        |
+| L                                                                             |   2.1 (m)        |
 
 ##### Описание 1.2
 

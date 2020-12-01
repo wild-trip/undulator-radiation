@@ -19,9 +19,9 @@ backgroundImg2=None
 backgroundImg3=None
 backgroundImg4=None
 
-dataFile='tasks/2/solutions/2.1.2_test.dc0'
-#backgroundImg3='tasks/3/solutions/3.6_analytical_Ox.png'
-#backgroundImg4='tasks/3/solutions/3.6_analytical_Oy.png'
+dataFile='tasks/2/solutions/2.1.2.dc0'
+#backgroundImg3='tasks/2/solutions/2.1.2_paper_Ox.png'
+#backgroundImg4='tasks/2/solutions/2.1.2_paper_Oy.png'
 targetPic='tasks/2/solutions/2.1.2_test.png'
 #XY on 60 string
 
@@ -62,8 +62,8 @@ plt.title('Flux density dependence from Energy')
 plt.grid(True)
 axes = plt.gca()
 left, right = axes.get_xlim()
-left = 1
-right = 33
+left = 0.65
+right = 23
 top, bottom = axes.get_ylim()
 axes.set_xlim(left, right)
 axes.set_ylim(0, bottom)
@@ -93,7 +93,7 @@ plt.ylabel('Flux density')
 plt.title('Flux density on the horizontal plane')
 plt.grid(True)
 if backgroundImg3 != None:
-    im = plt.imread(backgroundImg1)
+    im = plt.imread(backgroundImg3)
     implot = plt.imshow(im, aspect='auto', extent=(left + 0.001, right, 0, bottom))
 
 plt.subplot(4, 1, 4)
@@ -106,7 +106,7 @@ plt.xlabel('Energy')
 plt.ylabel('Flux density')
 plt.title('Flux density on the vertical plane')
 if backgroundImg4 is not None:
-    im = plt.imread(backgroundImg2)
+    im = plt.imread(backgroundImg4)
     implot = plt.imshow(im, aspect='auto', extent=(left + 0.001, right, 0, bottom))  
 plt.grid(True)
 
