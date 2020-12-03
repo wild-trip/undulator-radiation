@@ -6,6 +6,7 @@
 3. [x] Конфигурация плоский sin cos.
 4. [x] Конфигурация плоский cos cos.
 5. [x] Конфигурация плоский sin sin.
+6. [x] Сравнить результаты, с [аналитической моделью](../../docs/analytical/elliptic%20undul,%20SPARC%20setup,%20d=0,%20d1=1,%20d2=0.3%20v.2.doc).
 
 # Description
 #### 3.1. Параметры установки:
@@ -147,3 +148,24 @@
 
 ##### Результат 3.5
 [![Результат](solutions/3.5.png "Сравнение задачи 3.5")](solutions/3.5.png)
+
+##### 3.6. Параметры установки:
+
+Поле:
+<img src="https://render.githubusercontent.com/render/math?math=H=H_0(sin(k_{\lambda}z), 0.3 cos(k_{\lambda}z)  %2B sin(3k_{\lambda}z),0)">
+
+| Переменная   |      Значение      |
+|--------------|:------------------:|
+|  <img src="https://render.githubusercontent.com/render/math?math=\gamma">     |   300                  |
+|  <img src="https://render.githubusercontent.com/render/math?math=K_{x Eff}">      |    2.133               |
+| <img src="https://render.githubusercontent.com/render/math?math=K_{y Eff}">       |   0.956553              |
+|  <img src="https://render.githubusercontent.com/render/math?math=\lambda_u">  |   2.8 (cm)        |
+| <img src="https://render.githubusercontent.com/render/math?math=\sigma">      |   1e-3          |
+| <img src="https://render.githubusercontent.com/render/math?math=\epsilon_x">  |   2.5e-6 (m*rad)  |
+| <img src="https://render.githubusercontent.com/render/math?math=\epsilon_y">  |   2.9e-6 (m*rad)  |
+| <img src="https://render.githubusercontent.com/render/math?math=\beta_x">     |   2.2 (m)     |
+| <img src="https://render.githubusercontent.com/render/math?math=\beta_y">     |   2.2 (m)     |
+| L                                                                             |   2.1 (m)        |
+
+##### Результат 3.6
+[![Результат](solutions/3.6.png "Сравнение задачи 3.3")](solutions/3.6.png)

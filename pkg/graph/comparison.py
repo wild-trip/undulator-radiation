@@ -19,10 +19,10 @@ backgroundImg2=None
 backgroundImg3=None
 backgroundImg4=None
 
-dataFile='tasks/2/solutions/2.1.2.dc0'
-#backgroundImg3='tasks/2/solutions/2.1.2_paper_Ox.png'
-#backgroundImg4='tasks/2/solutions/2.1.2_paper_Oy.png'
-targetPic='tasks/2/solutions/2.1.2_test.png'
+dataFile='tasks/3/solutions/3.6.dc0'
+backgroundImg3='tasks/3/solutions/3.6_analytical_Ox.png'
+backgroundImg4='tasks/3/solutions/3.6_analytical_Oy.png'
+targetPic='tasks/3/solutions/3.6.png'
 #XY on 65 string
 
 double  = Word(nums+'.'+'e'+'+'+'-')
@@ -62,8 +62,8 @@ plt.title('Flux density dependence from Energy')
 plt.grid(True)
 axes = plt.gca()
 left, right = axes.get_xlim()
-left = 0.75
-right = 24.5
+left = 1
+right = 33
 top, bottom = axes.get_ylim()
 axes.set_xlim(left, right)
 axes.set_ylim(0, bottom)
