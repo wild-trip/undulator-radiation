@@ -19,10 +19,10 @@ backgroundImg2=None
 backgroundImg3=None
 backgroundImg4=None
 
-dataFile='tasks/3/solutions/3.6.dc0'
-backgroundImg3='tasks/3/solutions/3.6_analytical_Ox.png'
-backgroundImg4='tasks/3/solutions/3.6_analytical_Oy.png'
-targetPic='tasks/3/solutions/3.6.png'
+dataFile='tasks/4/solutions/4.3.dc0'
+#backgroundImg3='tasks/3/solutions/3.6_analytical_Ox.png'
+#backgroundImg4='tasks/3/solutions/3.6_analytical_Oy.png'
+targetPic='tasks/4/solutions/4.3.png'
 #XY on 65 string
 
 double  = Word(nums+'.'+'e'+'+'+'-')
